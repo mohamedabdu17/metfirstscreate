@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(202, 202, 202);
+}
+
+.topnav {
+    background-color: white;
+    height: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    align-self: center;
+    max-width: 100%;
+    max-height: 5%;
+}
+
+.topnav a:hover {
+    opacity: 0.8;
+}
+
+.navButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Roboto;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    font-weight: 500;
+    vertical-align: center;
+    cursor: pointer;
+}
+
+.navLogo {
+    width: 4%;
+    align-self: center;
+}
