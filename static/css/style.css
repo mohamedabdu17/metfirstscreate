@@ -1,0 +1,121 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    font-family: Roboto, sans-serif;
+    font-weight: 300 !important;
+}
+
+/* Left and Right Sections */
+.nav-left, .nav-right {
+    display: flex;
+    flex: 1;  /* Ensures equal space on both sides */
+    align-items: center;
+}
+
+.nav-left {
+    justify-content: flex-start;
+}
+
+.nav-right {
+    justify-content: flex-end;
+}
+
+/* Center Logo */
+.nav-center {
+    flex: 0; /* Prevents stretching */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; /* Allows precise centering */
+    left: 50%;
+    transform: translateX(-50%); /* Moves logo to exact center */
+}
+
+.nav-center img {
+    width: 60px; /* Increase this value to make it larger */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Navbar Links */
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Shop Button */
+.shop-btn {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255) !important;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.shop-btn img {
+    width: 16px; /* Adjust the icon size */
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(to bottom, #8b0000, #d60000);
+    color: white;
+    padding: 150px;
+}
+
+/* Hero Content */
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* Hero Button */
+.hero .btn {
+    background: white;
+    color: black;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero .btn:hover {
+    background: #ddd;
+}

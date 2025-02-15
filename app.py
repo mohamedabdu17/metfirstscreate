@@ -3,8 +3,8 @@ app = Flask(__name__)
 
 # HOME PAGE
 @app.route('/')
-def hello_world():
-    return render_template("hero.html")
+def hero():
+    return render_template("index.html")
 
 # ABOUT PAGE
 @app.route('/about')
